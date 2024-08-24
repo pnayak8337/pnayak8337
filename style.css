@@ -1,0 +1,77 @@
+.navbar{
+    height: 50px;
+    width: 700%;
+    padding: 2Px solid black;
+    background-color:blanchedalmond;
+    text-decoration: none;
+
+}
+
+a{
+    margin-right: 200px;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+}
+
+footer{
+    height: 100px;
+    background-color: black;
+    color:whitesmoke;
+    text-align: center;
+    
+}
+
+.section{ 
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border: 5px solid black;
+    background-image: url("food.jpeg");
+
+}
+
+button{
+    background-color:rgb(41, 30, 14);
+    color: white;
+}
+
+#logo{
+    color: blue;
+    font-size: 25px;
+}
+
+
+form{
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+
+}
+
+
+.food-image{
+    height: 100vh;
+    width: 100%;
+    border: 2px solid black;
+    background-image:url("food1.jpeg");
+    text-align: center;
+    background-size: 100% 100%;
+    animation: changeimage 20s linear infinite;
+}
+
+@keyframes changeimage {
+    0%{
+        background-image:url("food1.jpeg");
+    }
+    25%{
+        background-image:url("food3.jpeg");
+    }
+    75%{
+        background-image:url("food.jpeg");
+    }
+    100%{
+        background-image:url("food1.jpeg");
+    }
+    
+}
